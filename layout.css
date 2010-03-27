@@ -333,10 +333,12 @@ body {
   height: 340px;
 }
 
-#welcome {
+#welcome #intro {
   font-size: 16px;
   font-weight: normal;
   line-height: 22px;
+  color: white;
+  text-shadow: #1F275A 1px 1px 0px;
 }
 
 #twitter {
@@ -350,6 +352,15 @@ body {
 #video {
   text-align: right;
   margin-bottom: 10px;
+}
+
+#download_link {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: white;
+  text-shadow: #1F275A 1px 1px 0px;
 }
 
 .highlight {
@@ -389,7 +400,7 @@ body {
 #headline h1,
 #footer h3 {
   color: white;
-  text-shadow: #1F275A 1px 1px 0px;
+  text-shadow: #1F275A 3px 3px 0px;
 }
 
 #footer a {
