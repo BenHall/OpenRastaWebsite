@@ -1,99 +1,129 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>OpenRasta</title>
-<LINK href="layout.css" rel="stylesheet" type="text/css">
+	<title>OpenRasta</title>
+	<LINK href="layout.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+               
+	<div id="header" class="container_12">
+		<div id="home" class="grid_3 link">
+			<a href="/">
+				<strong class="title caps">Home</strong>
+				<span class="subtitle">OpenRasta homepage</span>
+			</a>
+		</div>
+
+		<div id="getting_started" class="grid_3 link">
+			<a href="/getting-started">
+				<strong class="title caps">Hello World</strong>
+				<span class="subtitle">Your first application</span>
+			</a>
+		</div>
+
+		<div id="download" class="grid_3 link">
+			<a href="/download">
+				<strong class="title caps">Download</strong>
+				<span class="subtitle">Download binaries</span>
+			</a>
+		</div>
+
+		<div id="boudoir" class="grid_3 link">
+			<a href="/getting-started">
+				<strong class="title caps">Boudoir</strong>
+				<span class="subtitle">Development area</span>
+			</a>
+		</div>
+	</div>
+
                 
 
-<div id="header" class="container_12">
-	<div id="home" class="grid_3 link">
-		<a href="/">
-			<strong class="title caps">Home</strong>
-			<span class="subtitle">OpenRasta homepage</span>
-		</a>
+	<div id="headline" class="container_12">
+
+		<div id="welcome" class="grid_6 info">
+			<h1>OpenRasta</h1>
+			<p>Restful .net </p>
+		</div>
+
+		<div id="video" class="grid_6 info">
+			<object width="400" height="302"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=3385419&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=04f000&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=3385419&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=04f000&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="302"></embed></object>
+		</div>
+
 	</div>
 
-	<div id="getting_started" class="grid_3 link">
-		<a href="/getting-started">
-			<strong class="title caps">Hello World</strong>
-			<span class="subtitle">First application</span>
-		</a>
+	<div id="content" class="container_12">
+
+		<div id="" class="grid_6 text">
+			<h2>Latest articles</h2>
+			<p>Restful .net </p>
+		</div>
+
+		<div id="twitter" class="grid_6 text">
+			<h2>Twitter</h2>
+			<div id="twitter_timeline">
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+					new TWTR.Widget({
+					  version: 2,
+					  type: 'profile',
+					  rpp: 6,
+					  interval: 6000,
+					  width: 250,
+					  height: 300,
+					  theme: {
+					    shell: {
+					      background: '#333333',
+					      color: '#ffffff'
+					    },
+					    tweets: {
+					      background: '#000000',
+					      color: '#ffffff',
+					      links: '#4aed05'
+					    }
+					  },
+					  features: {
+					    scrollbar: true,
+					    loop: false,
+					    live: true,
+					    hashtags: true,
+					    timestamp: false,
+					    avatars: false,
+					    behavior: 'all'
+					  }
+					}).render().setUser('OpenRasta').start();
+				</script>
+			</div>
+		</div>
+
+	</div>              
+
+	<div id="footer">
+		<hr class="highlight">
+		<div class="container_12">
+			<div id="events" class="grid_3 footerblock">
+				<h3>Events</h3>
+				<p>Speaking at...</p>
+			</div>
+
+			<div id="social" class="grid_3 footerblock">
+				<h3>Social</h3>
+				<p>Twitter</p>
+			</div>
+
+			<div id="contributors" class="grid_3 footerblock">
+				<h3>Contributors</h3>
+				<p>Seb</p>
+			</div>
+
+			<div id="about" class="grid_3 footerblock">
+				<h3>About</h3>
+				<p>Seb</p>
+			</div>
+		</div>
 	</div>
-
-	<div id="download" class="grid_3 link">
-		<a href="/download">
-			<strong class="title caps">Download</strong>
-			<span class="subtitle">Download binaries</span>
-		</a>
+	<div id="notice">
+		<p>Created by Ben Hall</p>
 	</div>
-
-	<div id="boudoir" class="grid_3 link">
-		<a href="/getting-started">
-			<strong class="title caps">Boudoir</strong>
-			<span class="subtitle">Development area</span>
-		</a>
-	</div>
-</div>
-
-                
-
-<div id="headline" class="container_12">
-
-	<div id="welcome" class="grid_6 info">
-		<h1>OpenRasta</h1>
-		<p>Restful .net </p>
-	</div>
-
-	<div id="video" class="grid_6 info">
-		Video
-	</div>
-
-</div>
-
-<div id="body" class="container_12">
-
-	<div id="" class="grid_6 text">
-		<h2>Latest news</h2>
-		<p>Restful .net </p>
-	</div>
-
-	<div id="" class="grid_6 text">
-		<h2>Twitter</h2>
-		<p>Restful .net </p>
-		<p>Restful .net </p>
-		<p>Restful .net </p>
-		<p>Restful .net </p>
-	</div>
-
-</div>              
-
-<div id="footer" class="container_12">
-	<div id="events" class="grid_3 link">
-		<h3>Events</h3>
-		<p>Speaking at...</p>
-	</div>
-
-	<div id="social" class="grid_3 link">
-		<h3>Social</h3>
-		<p>Twitter</p>
-	</div>
-
-	<div id="contributors" class="grid_3 link">
-		<h3>Contributors</h3>
-		<p>Seb</p>
-	</div>
-
-	<div id="about" class="grid_3 link">
-		<h3>About</h3>
-		<p>Seb</p>
-	</div>
-</div>
-
-<div id="notice" class="container_12">
-	Website created by Ben Hall
-</div>
             
 </body>
 </html>

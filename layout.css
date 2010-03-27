@@ -271,6 +271,12 @@
 
 
 /* */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .header {
   display: block;
   height: 48px;
@@ -308,13 +314,66 @@
 }
 
 .info {
-  height: 90px;
-  display: block;
+  padding-top: 20px;
+  height: 320px;
+}
+
+#twitter {
+  text-align: right;
+}
+
+#twitter_timeline {
+  float: right;
+}
+
+#video {
+  text-align: right;
+}
+
+.highlight {
+  background: #4C5155;
+  border-top: 1px solid #14171A;
+  width: 100%;  
 }
 
 #notice {
-  margin: 0px;
-  height: 90px;
-  display: block;
   text-align: right;
+  background: #2D3338;
+  color: #CACACA;
+  width: 100%;
+  display: block;
+  height: 1%;
+}
+
+#notice p {
+  margin: 0px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  height: 120px;
+  background: #2D3338;
+  color: #CACACA;
+  width: 100%;
+}
+
+.footerblock {
+  background: #2D3338;
+  line-height: 20px;
+  width: 220px;
+}
+
+#headline h1,
+#footer h3 {
+  color: white;
+  text-shadow: #1F275A 1px 1px 0px;
+}
+
+#content {
+	position: relative;
+	min-height: 700px;
+	width: 960px;
+	margin: 0 auto 20px auto;
+	overflow: hidden;
 }
