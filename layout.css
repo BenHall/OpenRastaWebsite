@@ -274,8 +274,18 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  background: url(background.png) top center repeat-x;
 }
 
+.header_content {
+  width: 100%;
+  min-height: 48px;
+  display: block;
+  border-bottom: 2px solid #14171A;
+}
 
 .header {
   display: block;
@@ -295,7 +305,7 @@ body {
 }
 
 .link a {
-  color: black;
+  color: white;
   float: left;
   line-height: 14px;
   padding: 10px;
@@ -303,6 +313,11 @@ body {
   border: none;
   outline: none;
   text-decoration: none;
+}
+
+.link a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  outline: 2px solid #14171A;
 }
 
 .title {
@@ -315,7 +330,13 @@ body {
 
 .info {
   padding-top: 20px;
-  height: 320px;
+  height: 340px;
+}
+
+#welcome {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
 }
 
 #twitter {
@@ -328,6 +349,7 @@ body {
 
 #video {
   text-align: right;
+  margin-bottom: 10px;
 }
 
 .highlight {
@@ -352,7 +374,7 @@ body {
 }
 
 #footer {
-  height: 120px;
+  height: 200px;
   background: #2D3338;
   color: #CACACA;
   width: 100%;
@@ -370,10 +392,34 @@ body {
   text-shadow: #1F275A 1px 1px 0px;
 }
 
+#footer a {
+  color: white;
+}
+
 #content {
 	position: relative;
-	min-height: 700px;
+	min-height: 500px;
 	width: 960px;
 	margin: 0 auto 20px auto;
 	overflow: hidden;
+}
+
+.headline_content {
+  width: 100%;
+  min-height: 320px;
+  display: block;
+  border-bottom: 2px solid #14171A;
+}
+
+.content_breaker {
+  background-color: red;
+  width: 100%;
+  min-height: 24px;
+  display: block;
+}
+
+ul {
+  margin:0; 
+  padding: 0;
+  list-style-type: none;
 }
