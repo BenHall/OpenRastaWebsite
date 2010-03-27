@@ -434,3 +434,14 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
+.quote {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  width: 500px; 
+  height: 220px; 
+  z-index: 5; 
+  opacity: 0; 
+  display: none; 
+}

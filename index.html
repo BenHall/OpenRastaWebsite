@@ -3,6 +3,19 @@
 <head>
 	<title>OpenRasta</title>
 	<LINK href="layout.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.72.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+		    $('.quotes').cycle({
+				fx: 'scrollRight', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+				speed:  'slow', 
+			    timeout: 6000,
+			});
+		});
+
+	</script>
 </head>
 <body>
                
@@ -42,7 +55,7 @@
 		<div id="headline" class="container_12">
 
 			<div id="welcome" class="grid_6 info">
-				<h1>OpenRasta</h1>
+				<img src="logo_resized.png" style="">
 				<p id="intro">
 					OpenRasta (Open REST Architecture Solution Targeting Asp.net) is a Resource-Oriented framework to build MVC-style applications on asp.net 2 and above.
 				</p>
@@ -56,6 +69,10 @@
 		</div>
 	</div>
 	<div class="">
+	</div>
+	<div class="container_12 quotes">
+		<img src="quote1.png" class="quote" />
+		<img src="quote2.png" class="quote" />
 	</div>
 	<div id="content" class="container_12">
 
